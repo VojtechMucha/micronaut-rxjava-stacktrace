@@ -65,6 +65,6 @@ Notes:
 * Using reactor.
 * `GoogleCallingController` returns Mono with 1s timeout. It calls `GoogleClient`
 * `GoogleClient` tries to connect to port 81 which causes connection timeout. Timeout is set to 2s in `application.yml`.
-* It means that controller result Mono timeouts before `GoogleClient`.
+* It means that the controller result Mono timeouts before `GoogleClient`.
 * When `GoogleClient` timeouts then the exception appears.
 * The same or similar issue is already described in https://github.com/micronaut-projects/micronaut-core/issues/1799
