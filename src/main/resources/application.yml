@@ -1,0 +1,6 @@
+micronaut:
+  application:
+    name: micronaut-rxjava-stacktrace
+  http:
+    client:
+      connect-timeout: 2s

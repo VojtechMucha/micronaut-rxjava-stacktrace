@@ -1,0 +1,5 @@
+profile: service
+defaultPackage: micronaut.rxjava.stacktrace
+---
+testFramework: junit
+sourceLanguage: java
